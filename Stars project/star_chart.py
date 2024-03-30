@@ -106,43 +106,6 @@ def plot_constellation(coords, lines, names, color, size):
             draw_line(x0,y0,x1,y1, "yellow")
 
 
-
-    
-
-
-    
-        
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# ^^^^ADD YOUR CODE ABOVE THIS LINE^^^^
-# DO NOT CHANGE ANYTHING BELOW THIS LINE!
-
 def draw_line(x0, y0, x1, y1, color):
     '''Draw a line connecting two points, given integer coordinates for the
     start position (x0, y0) and end position (x1, y1). The color is a string, 
@@ -183,9 +146,9 @@ for fname, color in CONSTELLATION_FILES:
     fp.close()
     plot_constellation(coords, lines, names, color, SIZE)
 
-# DO NOT DELETE THIS LINE!
+
 wnd.mainloop()
 
-#Gerlando worked with me
+
     
     
