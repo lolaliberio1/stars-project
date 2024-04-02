@@ -131,7 +131,7 @@ canvas = tk.Canvas(wnd, width=SIZE, height=SIZE, background='black')
 canvas.pack()
 wnd.title('Star chart')
 
-# THE MAIN PROGRAM IS HERE (DO NOT CHANGE THIS)!
+
 
 fp = open('stars.txt')
 coords, magnitudes, names = read_stars(fp)
